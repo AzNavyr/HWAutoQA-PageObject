@@ -2,6 +2,8 @@ package ru.netology.test.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
 import org.junit.jupiter.api.Test;
 import ru.netology.test.data.DataHelper;
 import ru.netology.test.page.LoginPage;
